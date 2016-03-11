@@ -1,0 +1,36 @@
+& {
+  .header {
+    height:50px;
+    width:100%;
+    background-color:#31708F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .c-list {
+    width: 200px;
+    background-color: #00d6b2;
+  }
+  .c-container {
+    width: 375px;
+    //zoom: .5;
+    background-color: #00b3ee;
+    .phone-content {
+      //height: 667px;
+    }
+    .lib-pc-phone-lib-phone {
+      //height: 667px;
+    }
+  }
+  .c-config {
+    width: 400px;
+    background-color:#5bc0de;
+  }
+}
