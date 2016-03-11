@@ -2,7 +2,8 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import Editorheader from './header.jsx';
-import Componentlist from './component-list.jsx';
+//import Componentlist from './component-list.jsx';
+import Containercomponentlist from '../containers/container-component-list.jsx';
 import ContainerLegocontainer from '../containers/lego-container-todo.jsx';
 //import Legoconfig from './lego-config.jsx';
 import ContainerLegoconfig from '../containers/lego-container-config.jsx';
@@ -19,7 +20,7 @@ export default class Editor extends React.Component {
                 <div className="_namespace">
                     <Editorheader/>
                     <div className="content">
-                        <Componentlist/>
+                        <Containercomponentlist/>
                         <ContainerLegocontainer/>
                         <ContainerLegoconfig/>
                     </div>
