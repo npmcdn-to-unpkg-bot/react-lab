@@ -7,7 +7,7 @@ import App from './components/app/app.jsx';
 import Page1 from './components/app/page.jsx';
 import Page2 from './components/app/page2.jsx';
 import Default from './components/app/default.jsx';
-import Editor from './components/editor/index.jsx';
+import DragTest from './components/drag/drag-app.jsx';
 /**
  * hashHistory 是用hash 做路由的
  * browserHistory 是高级浏览器 pushstate, repacestate 实现路由的
@@ -19,7 +19,7 @@ const routes = (
             <Route path="/page1" component={Page1}></Route>
             <Route path="/page2" component={Page2}></Route>
         </Route>
-        <Route  path="/editor" component={Editor}></Route>
+        <Route  path="/drag" component={DragTest}></Route>
     </Router>
 )
 
