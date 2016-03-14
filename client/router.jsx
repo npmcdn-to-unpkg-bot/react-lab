@@ -8,6 +8,7 @@ import Page1 from './components/app/page.jsx';
 import Page2 from './components/app/page2.jsx';
 import Default from './components/app/default.jsx';
 import Editor from './components/editor/index.jsx';
+import DemoApp from './components/demo/index.jsx';
 /**
  * hashHistory 是用hash 做路由的
  * browserHistory 是高级浏览器 pushstate, repacestate 实现路由的
@@ -20,6 +21,7 @@ const routes = (
             <Route path="/page2" component={Page2}></Route>
         </Route>
         <Route  path="/editor" component={Editor}></Route>
+        <Route path="/demo" component={DemoApp}></Route>
     </Router>
 )
 
