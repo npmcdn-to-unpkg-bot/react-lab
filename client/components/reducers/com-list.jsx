@@ -3,6 +3,8 @@
  *
  */
 import { combineReducers } from 'redux';
+import {reducer as formReducer} from 'redux-form';
+
     //cards for appp container
 const getCards = (state = [], action) => {
     let type = action.type;
@@ -25,6 +27,7 @@ const getConfigs = (state = [], action) => {
 }
 const todoApp = combineReducers({
     cards: getCards,
-    configs: getConfigs
+    configs: getConfigs,
+    form: formReducer     // <---- Mounted at 'form'. See note below.
 });
 export default todoApp;

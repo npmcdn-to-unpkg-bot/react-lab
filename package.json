@@ -33,7 +33,8 @@
     "react-addons-css-transition-group": "^0.14.7",
     "react-dom": "^0.14.3",
     "react-router": "^2.0.0-rc5",
-    "redux": "^3.0.5"
+    "redux": "^3.0.5",
+    "redux-form": "^4.2.2"
   },
   "devDependencies": {
     "fis3-tb-build": "http://gitlab.baidu.com/tb-component/build/repository/archive.tar.gz",
